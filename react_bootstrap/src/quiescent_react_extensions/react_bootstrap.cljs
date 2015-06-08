@@ -1,25 +1,22 @@
 (ns quiescent-react-extensions.react-bootstrap
-  (:require-macros [quiescent-utils.dom :refer [define-tags]])
+  (:require-macros [quiescent-toolbox.dom :refer [define-tags]])
   (:require [cljsjs.react-bootstrap]))
 
 (define-tags "ReactBootstrap"
   Accordion
   Affix
-  AffixMixin
   Alert
-  BootstrapMixin
   Badge
   Button
   ButtonGroup
   ButtonToolbar
+  CollapsableNav
+  CollapsibleNav
   Carousel
   CarouselItem
   Col
-  CollapsableMixin
   DropdownButton
   DropdownMenu
-  DropdownStateMixin
-  FadeMixin
   Glyphicon
   Grid
   Input
