@@ -1,24 +1,26 @@
 (ns quiescent-react-extensions.react-bootstrap
-  (:require-macros [quiescent-toolbox.dom :refer [define-tags]])
-  (:require [cljsjs.react-bootstrap]))
+  (:require [quiescent.factory :as f]
+            [cljsjs.react-bootstrap]))
 
-(define-tags "ReactBootstrap"
+(f/def-factories js/ReactBootstrap
   Accordion
-  Affix
   Alert
   Badge
+  Breadcrumb
+  BreadcrumbItem
   Button
   ButtonGroup
+  ButtonInput
   ButtonToolbar
-  CollapsableNav
-  CollapsibleNav
   Carousel
   CarouselItem
   Col
+  CollapsibleNav
+  Dropdown
   DropdownButton
-  DropdownMenu
   Glyphicon
   Grid
+  Image
   Input
   Interpolate
   Jumbotron
@@ -27,24 +29,35 @@
   ListGroupItem
   MenuItem
   Modal
+  ModalBody
+  ModalFooter
+  ModalHeader
+  ModalTitle
   Nav
   Navbar
+  NavBrand
+  NavbarBrand
+  NavDropdown
   NavItem
-  ModalTrigger
+  Overlay
   OverlayTrigger
-  OverlayMixin
   PageHeader
-  Panel
-  PanelGroup
   PageItem
   Pager
+  Pagination
+  Panel
+  PanelGroup
   Popover
   ProgressBar
+  ResponsiveEmbed
   Row
+  SafeAnchor
   SplitButton
-  SubNav
-  TabbedArea
+  Tab
   Table
-  TabPane
+  Tabs
+  Thumbnail
   Tooltip
-  Well)
+  Well
+  Collapse
+  Fade)
