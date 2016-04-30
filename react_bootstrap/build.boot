@@ -1,12 +1,12 @@
 (set-env!
   :source-paths #{"react-bootstrap/src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
-                  [quiescent "0.3.1"]
-                  [cljsjs/react-bootstrap "0.28.1-2"]])
+                  [quiescent "0.3.1-1"]
+                  [cljsjs/react-bootstrap "0.29.2-1"]])
 
 (require '[adzerk.bootlaces :refer :all])
 
-(def +version+ "0.28.1-2-0")
+(def +version+ "0.29.2-1-0")
 (bootlaces! +version+)
 
 (task-options!
