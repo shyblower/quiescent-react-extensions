@@ -2,4 +2,4 @@
   (:require [quiescent.factory :as f]
             [cljsjs.react-waypoint]))
 
-(def Waypoint (f/factory js/reactWaypoint))
+(def Waypoint (f/factory js/ReactWaypoint))
