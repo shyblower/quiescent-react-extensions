@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"react-responsive/src"}
+  :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.1-1"]
                   [cljsjs/react-responsive "1.1.13-0"]])

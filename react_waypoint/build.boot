@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"react-waypoint/src"}
+  :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.2-shyblower" :scope "provided"]
                   [cljsjs/react-waypoint "2.0.2-0"]])

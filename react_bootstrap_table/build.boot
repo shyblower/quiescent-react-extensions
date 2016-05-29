@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"react-bootstrap-table/src"}
+  :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.1"]
                   [cljsjs/react-bootstrap-table "1.6.0-0"]])

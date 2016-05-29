@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"react-bootstrap/src"}
+  :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.1.1-shyblower"]
                   [cljsjs/react-bootstrap "0.29.3-0"]])

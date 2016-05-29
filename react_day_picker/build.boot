@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"react-day-picker/src"}
+  :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.1.1-shyblower" :scope "provided"]
                   [cljsjs/react-day-picker "2.0.1-0"]])
