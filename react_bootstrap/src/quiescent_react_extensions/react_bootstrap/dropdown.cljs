@@ -3,5 +3,6 @@
             [cljsjs.react-bootstrap]))
 
 (f/def-factories js/ReactBootstrap.Dropdown
-  Toggle
-  Menu)
+  ControlledComponent
+  Menu
+  Toggle)

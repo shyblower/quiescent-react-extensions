@@ -4,9 +4,10 @@
 
 (f/def-factories js/ReactBootstrap.Navbar
   Brand
+  Collapse
+  ControlledComponent
   Header
   Toggle
-  Collapse
   Form
-  Text
-  Link)
+  Link
+  Text)

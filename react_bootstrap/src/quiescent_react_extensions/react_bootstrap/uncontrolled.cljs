@@ -3,6 +3,9 @@
             [quiescent.dom.uncontrolled :refer [uncontrolled-component]]
             [cljsjs.react-bootstrap]))
 
+(def FormControl (factory (uncontrolled-component "FormControl" js/ReactBootstrap.FormControl)))
+
+; deprecatedS
 (def Input (factory (uncontrolled-component "Input" js/ReactBootstrap.Input)))
 
 ; utility functions

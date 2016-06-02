@@ -14,20 +14,29 @@
   ButtonToolbar
   Carousel
   CarouselItem
+  Checkbox
+  Clearfix
   Col
-  CollapsibleNav
+  Collapse
+  ControlLabel
   Dropdown
   DropdownButton
+  Fade
   Form
+  FormControl
+  FormGroup
   Glyphicon
   Grid
+  HelpBlock
   Image
   Input
+  InputGroup
   Interpolate
   Jumbotron
   Label
   ListGroup
   ListGroupItem
+  Media
   MenuItem
   Modal
   ModalBody
@@ -35,11 +44,10 @@
   ModalHeader
   ModalTitle
   Nav
-  Navbar
-  NavBrand
-  NavbarBrand
   NavDropdown
   NavItem
+  Navbar
+  NavbarBrand
   Overlay
   OverlayTrigger
   PageHeader
@@ -55,10 +63,11 @@
   SafeAnchor
   SplitButton
   Tab
+  TabContainer
+  TabContent
+  TabPane
   Table
   Tabs
   Thumbnail
   Tooltip
-  Well
-  Collapse
-  Fade)
+  Well)

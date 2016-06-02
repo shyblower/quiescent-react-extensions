@@ -3,8 +3,8 @@
             [cljsjs.react-bootstrap]))
 
 (f/def-factories js/ReactBootstrap.Modal
-  Dialog
-  Header
-  Title
   Body
-  Footer)
+  Dialog
+  Footer
+  Header
+  Title)
