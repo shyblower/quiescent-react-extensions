@@ -2,11 +2,11 @@
   :source-paths #{"src"}
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]
                   [quiescent "0.3.1.1-shyblower"]
-                  [cljsjs/react-bootstrap "0.29.3-0"]])
+                  [cljsjs/react-bootstrap "0.29.4-0"]])
 
 (require '[adzerk.bootlaces :refer :all])
 
-(def +version+ "0.29.3-0-1")
+(def +version+ "0.29.4-0-0")
 (bootlaces! +version+)
 
 (task-options!
