@@ -58,6 +58,7 @@
   PanelGroup
   Popover
   ProgressBar
+  Radio
   ResponsiveEmbed
   Row
   SafeAnchor
